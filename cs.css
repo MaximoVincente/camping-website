@@ -36,11 +36,11 @@ main {
   margin-right: 2em;
   text-align: left;
 }
-img{
-  height: fit-content;
-}
+
 .cs img {
   display: inline-block;
+  width: 1000px;
+  height: 500px;
 }
 
 .cs section{
@@ -59,6 +59,9 @@ section{
   text-align: center;
 }
 
+.camping_options img{
+height: 300px;
+}
 
 footer {
   background: #555;
