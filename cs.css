@@ -36,7 +36,9 @@ main {
   margin-right: 2em;
   text-align: left;
 }
-
+img{
+  height: fit-content;
+}
 .cs img {
   display: inline-block;
 }
