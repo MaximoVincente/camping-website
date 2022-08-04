@@ -10,3 +10,5 @@ document.write("Hi "  + username + " Your adventure awaits! ");
     else{
         alert("hmm.. There's no way!Let me change your mind!");
     }
+
+
