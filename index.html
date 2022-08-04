@@ -59,7 +59,18 @@
             </section>
         </main>
         <footer>
-            &#169; Maximo Vincente and Jeremy Andamson 
+            &#169; Maximo Vincente and Jeremy Adamson 
+            <form onsubmit="park(); return false">
+            <input autocomplete="off" autofocus id="name" placeholder="Favorite Nat Park" type="text>"
+            <input type="submit"> 
+            </form>
+            <script>
+                function park()
+                {
+                    let name = document.querySelector('#name').value;
+                    alert(name + ' is one of my favorites too!');
+                }
+            </script>
         </footer>
     </body>
 </html>
