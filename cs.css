@@ -2,7 +2,13 @@ header {
   border: 2px solid black;
   font-size: x-large;
   background-color: #99a;
-  text-align: center;
+  text-align: center; 
+}
+
+script{
+  text-align: left;
+  margin-top: auto;
+  font-family: cursive;
 }
 
 h1 {
@@ -60,7 +66,7 @@ section{
 }
 
 .camping_options img{
-height: 300px;
+height:100px;
 }
 
 footer {
