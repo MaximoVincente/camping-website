@@ -1,5 +1,5 @@
 const username = prompt("What is your name?");
-document.write("Hi "  + username + " Your adventure awaits! ");
+document.write("Hi "  + username + "," + " Your adventure awaits! ");
 
 
     let q1 = prompt("Hello " + username +" Would you like to explore the uknown?");
@@ -8,7 +8,7 @@ document.write("Hi "  + username + " Your adventure awaits! ");
         alert("Then get ready for your your greatest adventure yet!");
     }
     else{
-        alert("hmm.. There's no way!Let me change your mind!");
+        alert("hmm... There's no way! Let me change your mind!");
     }
 
 
