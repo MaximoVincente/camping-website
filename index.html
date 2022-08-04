@@ -7,6 +7,8 @@
     </head>
     <body>
         <header>
+            <script>name()</script>
+            <script>getResponse()</script>
             <h1>Explore The Uknown</h1>
             <nav>
                 <a href = "link1">Overlanding</a>
@@ -17,6 +19,11 @@
         </header>
         <main>
 
+            <script>Park()</script>
+                <form onsubmit="park(); return false">
+                <input autocomplete="off" autofocus id="name" placeholder="Favorite National Park" type="text">
+                <button type="submit">Explore</button>
+                </form>
             <section class="cs">
                 <img src="https://st4.depositphotos.com/9999814/31016/i/450/depositphotos_310165124-stock-photo-travel-in-cradle-mountain-np.jpg" alt="Outdoors Image">
                 <h2>Because the Land is Yours, and Adventure is Necessary.</h2>
@@ -60,18 +67,6 @@
         </main>
         <footer>
             &#169; Maximo Vincente and Jeremy Adamson 
-            <form onsubmit="park(); return false">
-            <input autocomplete="off" autofocus id="name" placeholder="Favorite Nat Park" type="text>"
-            <input type="submit"> 
-            <button type="submit">Submit</button>
-            </form>
-            <script>
-                function park()
-                {
-                    let name = document.querySelector('#name').value;
-                    alert(name + ' is one of my favorites too!');
-                }
-            </script>
         </footer>
     </body>
 </html>
