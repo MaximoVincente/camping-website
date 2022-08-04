@@ -16,6 +16,7 @@ script{
 
 h1 {
   display: inline-block;
+  font-family: fantasy;
 }
 
 nav{
@@ -40,16 +41,23 @@ main {
   margin: 30px auto;
 }
 
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top:auto;
+}
 .cs h2{
   text-align: left;
-  
+  font-family: fantasy;
+  float: top;
+font-weight: bolder;
+
 }
 
 .cs img {
   display: inline-block;
-  width: 600px;
+  width: 750px;
   height: 400px;
-  margin-left: 9cm;
+  float:right;
 }
 
 .cs section{
@@ -57,7 +65,7 @@ main {
 }
 
 section{
-  align-items: center;
+  align-items:center;
 }
 
 .camping_options {
@@ -67,6 +75,8 @@ section{
   max-width: 30%;
   align-items: center;
   text-align: center;
+  margin-top: auto;
+  
   
 }
 
