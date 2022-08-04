@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(185, 185, 159);
+}
 header {
   border: 2px solid black;
   font-size: x-large;
@@ -38,19 +41,19 @@ main {
 }
 
 .cs h2{
-  display: inline-block;
-  margin-right: 2em;
   text-align: left;
+  
 }
 
 .cs img {
   display: inline-block;
-  width: 1000px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
+  margin-left: 9cm;
 }
 
 .cs section{
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 section{
@@ -59,14 +62,16 @@ section{
 
 .camping_options {
   border: 2px solid black;
+  border-width: 5px;
   display: inline-block;
   max-width: 30%;
   align-items: center;
   text-align: center;
+  
 }
 
 .camping_options img{
-height:100px;
+height:180px;
 }
 
 footer {
