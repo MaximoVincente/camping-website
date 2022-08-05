@@ -43,8 +43,11 @@ main {
 }
 
 
-img {
+.arch img {
   display: block;
+  height: 150px;
+  width: 150px;
+
 }
 
 p{

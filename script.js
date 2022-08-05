@@ -14,12 +14,10 @@ function getName(){
 
 function takePicture(){
 
-    let image = document.getElementById('image');
-    image = prompt("How many arches do you want");
-    for(let i = 1; i <= 5; i++){
-    let pic = "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vertical_shot_of_Delicate_Arch_%288225393117%29.jpg";
-    image = pic;
-}
+    let image = prompt("How many arches do you rate this site? ");
+    for(let i = 1; i <= image; i++){
+    document.write("<img src='arch.png' alt='arches' />");
+    }
 }
 
 function getPark(){
@@ -27,12 +25,3 @@ function getPark(){
     alert(name + ' is one of my favorites too!');
 }
 
-
-
-
-// let pictures = 0;
-//     pictures = prompt("How many arches do you want");
-//     for (let i = 1; i <= pictures; i++){
-//         var image = document.createElement("pictures");
-//         document.getElementById("pictures").src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Vertical_shot_of_Delicate_Arch_%288225393117%29.jpg"
-//     }
