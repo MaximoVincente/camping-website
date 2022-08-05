@@ -1,26 +1,18 @@
-function name(){
-const username = prompt("What is your name?");
-message = "Hi "  + username + "," + " Your adventure awaits! ";
-document.write(message);
+function getName(){
+    
+    let answer = "california" 
 
-    let q1 = prompt("Hello " + username +" Would you like to explore the uknown?");
-    if (q1 == "yes" || q1 == "YES" || q1 == "Yes" || q1 == "y"){
-        alert("Then get ready for your your greatest adventure yet!");
+    let state;
+    while (state !== answer){
+        state = prompt("Hello Explorer! Do you know which state has the most National Parks?");
     }
-    else{
-        alert("hmm... There's no way! Let me change your mind!");
-
-        next_response(){
-
-        }
+    if (state == answer){
+   let user = prompt("Correct! You must be quite the explorer! What is your name?");
+       document.write("Welcome " + user + " !");
     }
 }
 
-function park()
-{
+function getPark(){
     let name = document.querySelector('#name').value;
     alert(name + ' is one of my favorites too!');
 }
-
-
-
