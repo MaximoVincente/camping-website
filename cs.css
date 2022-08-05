@@ -42,6 +42,11 @@ main {
   text-align: start;
 }
 
+
+img {
+  display: block;
+}
+
 p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top:auto;
